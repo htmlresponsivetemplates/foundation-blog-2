@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Foundation blog 2</title>
+<meta charset="UTF-8">
+<!-- Main CSS -->
+<link href="css/styles.css" rel="stylesheet">
+<!-- Foundation CSS -->
+<link href="bower_components/foundation-sites/dist/foundation.min.css" rel="stylesheet">
+<!-- Font-awesome -->
+<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- Google-fonts -->
+<link href='https://fonts.googleapis.com/css?family=Changa+One|Days+One|Viga' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<h1>Foundation blog 2</h1>
+
+<header>
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+    </div>
+
+<div class="row">
+    <div class="large-8 large-offset-2 columns">
+        <nav div class="top-bar" id="example-menu">
+            <h2>Menu</h2>
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li class="menu-text">Foundation blog 2</li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li><a class="secondary hollow large button" href="index.html">Home</a></li>
+                    <li><a class="secondary hollow large button" href="about-me.html">About</a></li>
+                    <li><a class="secondary hollow large button" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<h2>Contact</h2>
+</header>
+
+<div class="row contact">
+    <div class="large-10 large-offset-1 columns">
+    <form data-abide novalidate>
+            <div class="row">
+                <div class="medium-10 medium-offset-1 columns">
+                    <div class="row">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam illo architecto.</p>
+                        <div class="medium-12 columns">
+                            <label>Email:
+                                <input type="email" required pattern="email">
+                                <span class="form-error">
+                                    Yo, you had better fill this out, it's required.
+                                </span>
+                            </label>
+                        </div>
+                        <div class="medium-12 columns">
+                            <label>Name:
+                                <input type="text" required pattern="text">
+                                <span class="form-error">
+                                    Yo, you had better fill this out, it's required.
+                                </span>
+                            </label>
+                        </div>
+                        <div class="medium-12 columns">
+                            <label>Subject:
+                                <input type="text" required pattern="text">
+                                <span class="form-error">
+                                    Yo, you had better fill this out, it's required.
+                                </span>
+                            </label>
+                        </div>
+                        <div class="medium-12 columns">
+                            <label>Note:
+                                <textarea rows="6"></textarea>
+                            </label>
+                            <a class="large success button pull-right" id="send-btn" href="#"><i class="fa fa-envelope"></i>Send</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </form>   
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Foundation JS -->
+<script src="bower_components/foundation-sites/dist/foundation.min.js"></script>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(document).foundation();
+    });
+</script>
